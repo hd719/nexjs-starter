@@ -7,6 +7,8 @@
 - You can create a new page by creating a new file in the pages directory
 - The file name will be the route of the page
 - page.tsx is the entry point of the page (home page)
+
+- Directories must have page.tsx file to be considered a route
 - Nested routes can be created by creating a folder with the same name as the route and creating an index.js file inside it
   - ex.
     - pages/
@@ -18,4 +20,4 @@
   - ex.
     - pages/
       - blog/
-        - [slug].js # Route: /blog/:slug
+        - [slug].tsx # Route: /blog/:slug
