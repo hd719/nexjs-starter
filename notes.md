@@ -13,8 +13,7 @@
       - about.js
       - contact.js
       - blog/
-        - index.js
-        - post.js # Route: /blog and /blog/post
+        - page.tsx # Route: /blog
 - Dynamic routes can be created by creating a file with square brackets in the name
   - ex.
     - pages/
