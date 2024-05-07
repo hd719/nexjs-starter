@@ -36,4 +36,5 @@
 - Next server will optimize images on the fly (6000 x 4000 - Desktop image will be resized to 1200 x 800 - mobile) and will be cached
 
 ### Image component sizing
-- 
+
+-
