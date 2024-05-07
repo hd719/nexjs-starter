@@ -1,7 +1,14 @@
-export default function ReliabilityPage() {
+import Link from "next/link";
+import Hero from "@/components/hero";
+
+import ReliabilityImg from "@/public/reliability.jpg";
+
+export default function Reliability() {
   return (
-    <div>
-      <h1>Reliability Page</h1>
-    </div>
+    <Hero
+      imgData={ReliabilityImg}
+      imgAlt="Reliability"
+      title="A reliable solution for your website"
+    />
   );
 }

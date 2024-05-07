@@ -1,7 +1,14 @@
-export default function PerformancePage() {
+import Link from "next/link";
+import Hero from "@/components/hero";
+
+import PerfImg from "@/public/performance.jpg";
+
+export default function Performance() {
   return (
-    <div>
-      <h1>Performance Page</h1>
-    </div>
+    <Hero
+      imgData={PerfImg}
+      imgAlt="Performance"
+      title="A high performance solution for your website"
+    />
   );
 }

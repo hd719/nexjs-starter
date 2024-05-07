@@ -1,7 +1,14 @@
-export default function ScalePage() {
+import Link from "next/link";
+import Hero from "@/components/hero";
+
+import ScaleImg from "@/public/scale.jpg";
+
+export default function Reliability() {
   return (
-    <div>
-      <h1>Scale Page</h1>
-    </div>
+    <Hero
+      imgData={ScaleImg}
+      imgAlt="Scale"
+      title="A scalable solution for your website"
+    />
   );
 }
