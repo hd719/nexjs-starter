@@ -21,3 +21,9 @@
     - pages/
       - blog/
         - [slug].tsx # Route: /blog/:slug
+
+## @ Symbol
+
+- The @ symbol is used to import modules from the root of the project, instead of using relative paths (../../..)
+  - ex.
+    - import { Layout } from '@/components/Layout'
